@@ -1,0 +1,156 @@
+
+
+body {
+    font-family: "indie flower";}
+
+.navbar {
+    background:linear-gradient( to right, #215f00, #e4e4d9);
+    margin: 0%;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+
+h1 {
+    display:inline-block;
+    font-weight: 300;
+    margin: 0;  
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0; 9px;
+
+}
+
+a.active {
+    border-bottom: 1px solid black;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin-left: 50px;
+    margin-right:50px;
+
+}
+
+.presentation {
+    font-size:large;
+    font-weight:bold;
+}
+.logo {
+    object-fit: contain;
+
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px, 300px;
+    gap: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 48.75%;
+}
+
+.titre {
+    font-size: 40px;
+    text-align: center;
+}
+
+.welcome {
+    display: inline-block;
+}
+
+button:hover {
+    color:#215f00;
+}
+
+h3 {
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.logof {
+    width:35px;
+}
+
+.logoi {
+    width:35px;
+}
+
+.lutin {
+    width: 100px;
+}
+.artisans {
+    list-style-type:circle;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.liste li {
+    text-align: center; 
+    margin-bottom: 30px;
+
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background:linear-gradient( to right, #215f00, #e4e4d9);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
+@media only screen and(max-width: 768px) {
+    h1 
+    flex-direction: column;
+    align-items: center;
+    }
+    link li { 
+    flex-direction: column;
+    }
+
+    
+
+
